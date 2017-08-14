@@ -17,9 +17,9 @@ engines = engine_section
 ibmpkcs11 = ibmpkcs11_section
 
 [ibmpkcs11_section]
-SLOT_ID=0
 dynamic_path = @LIBDIR@/libibmpkcs11.so
 engine_id = ibmpkcs11
+SLOT_ID=0
 #
 # The following algorithms will be enabled by these parameters
 # to the default_algorithms line. Any combination of these is valid,
